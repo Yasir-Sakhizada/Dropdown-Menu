@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link href="./stylesheets/output.css" rel="stylesheet">
+  <link href="./public/stylesheets/output.css" rel="stylesheet">
   
   <title>Tailwind CSS Dropdown Menu</title>
 
@@ -18,13 +18,13 @@
 
     <!-- logo -->
     <div class="mr-16">
-      <img src="images/logo.svg" alt="Snap Logo">
+      <img src="./public/images/logo.svg" alt="Snap Logo">
     </div>
 
     <nav id="mainnav" class="hidden fixed md:static top-0 right-0 h-svh w-2/3 md:w-auto md:h-auto p-8 md:p-0 bg-white z-50 md:flex flex-auto justify-between text-medium-gray items-center">
       
       <div class="md:hidden absolute top-6 right-5">
-        <button id="nav-close"><img src="images/icon-close-menu.svg" alt="Close Menu"></button>
+        <button id="nav-close"><img src="./public/images/icon-close-menu.svg" alt="Close Menu"></button>
       </div>
 
         <ul class="flex flex-col md:flex-row gap-5 md:gap-8 text-sm py-10 md:p-0">
@@ -32,10 +32,10 @@
             <div class="relative">
               <a href="javascript:void(0)" class="dropdown dropdown-icon hover:text-almost-black block">Features</a>
               <ul id="features-dropdown" class="hidden dropdowncontent bg-white w-max py-4 px-5 md:shadow-2xl md:shadow-medium-gray leading-8 text-medium-gray rounded-lg relative md:absolute z-10 md:top-8 md:right-0">
-                <li><img class="inline-block mr-2" src="images/icon-todo.svg" alt="Todo List icon"><a href="">ToDo List</a></li>
-                <li><img class="inline-block mr-2" src="images/icon-calendar.svg" alt="Calendar icon"><a href="">Calendar</a></li>
-                <li><img class="inline-block mr-2" src="images/icon-reminders.svg" alt="Reminders icon"><a href="">Reminders</a></li>
-                <li><img class="inline-block mr-2" src="images/icon-planning.svg" alt="Planning icon"><a href="">Planning</a></li>
+                <li><img class="inline-block mr-2" src="./public/images/icon-todo.svg" alt="Todo List icon"><a href="">ToDo List</a></li>
+                <li><img class="inline-block mr-2" src="./public/images/icon-calendar.svg" alt="Calendar icon"><a href="">Calendar</a></li>
+                <li><img class="inline-block mr-2" src="./public/images/icon-reminders.svg" alt="Reminders icon"><a href="">Reminders</a></li>
+                <li><img class="inline-block mr-2" src="./public/images/icon-planning.svg" alt="Planning icon"><a href="">Planning</a></li>
               </ul>
             </div>
           </li>
@@ -63,7 +63,7 @@
 
     <!-- Menu Open-->
     <div class="flex md:hidden">
-      <button id="nav-open"><img src="images/icon-menu.svg" alt="Menu"></button>
+      <button id="nav-open"><img src="./public/images/icon-menu.svg" alt="Menu"></button>
     </div>
 
   </header>
@@ -88,10 +88,10 @@
         <footer class="self-end">
           <!-- logos -->
           <ul class="flex gap-8">
-            <li><img src="images/client-databiz.svg" alt="DataBiz"></li>
-            <li><img src="images/client-audiophile.svg" alt="Audiophile"></li>
-            <li><img src="images/client-meet.svg" alt="Meet"></li>
-            <li><img src="images/client-maker.svg" alt="Maker"></li>
+            <li><img src="./public/images/client-databiz.svg" alt="DataBiz"></li>
+            <li><img src="./public/images/client-audiophile.svg" alt="Audiophile"></li>
+            <li><img src="./public/images/client-meet.svg" alt="Meet"></li>
+            <li><img src="./public/images/client-maker.svg" alt="Maker"></li>
           </ul>
 
         </footer>
@@ -100,7 +100,7 @@
 
       <picture class="flex-1 md:pl-8">
         <source srcset="images/image-hero-desktop.png" media="(min-width:768px)">
-        <img src="images/image-hero-mobile.png" alt="Man remote working">
+        <img src="./public/images/image-hero-mobile.png" alt="Man remote working">
       </picture>
     </div>
 
@@ -112,6 +112,6 @@
       Coded by <a href="https://github.com/Yasir-Sakhizada" class="underline hover:text-almost-black">Ahmad Yasir</a>.
     </p>
   </footer>
-  <script type="text/javascript" src="javascripts/common.js"></script>
+  <script type="text/javascript" src="./public/javascripts/common.js"></script>
 </body>
 </html>
